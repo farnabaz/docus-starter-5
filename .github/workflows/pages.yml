@@ -70,6 +70,7 @@ jobs:
         env:
           NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
           NUXT_APP_BASE_URL: /${{ github.event.repository.name }}
+          NUXT_PUBLIC_STUDIO_TOKENS: 05b741863dadcb9c471b4035ec47ac5dcc7370651166017a62c1e5b897276a6d
 
       - name: Add .nojekyll file
         run: touch .output/public/.nojekyll
